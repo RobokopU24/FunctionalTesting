@@ -1,0 +1,25 @@
+{
+  "message": {
+    "query_graph": {
+      "nodes": {
+        "disease": {
+          "ids": []
+        },
+        "gene": {
+          "categories": [
+            "biolink:Gene"
+          ]
+        }
+      },
+      "edges": {
+        "e01": {
+          "object": "disease",
+          "subject": "gene",
+          "predicates": [
+            "biolink:related_to"
+          ]
+        }
+      }
+    }
+  }
+}
